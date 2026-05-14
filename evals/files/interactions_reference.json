@@ -1,0 +1,152 @@
+# TCM-Drug Interaction Checker — Reference Data
+
+## High-Risk Interactions Database
+
+### 西柚汁 (Grapefruit Juice)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 严重 |
+| 机制 | 抑制肠道 CYP3A4 酶 → 显著增加多种靶向药口服生物利用度 |
+| 受影响药物 | EGFR TKI (奥希替尼, 吉非替尼, 厄洛替尼), 维莫非尼, 达拉非尼, 克唑替尼, 塞瑞替尼, 伊马替尼 (高剂量) |
+| 临床表现 | 药物中毒: 皮疹, 腹泻, 肝毒性, 心律失常, 骨髓抑制 |
+| 证据来源 | FDA Drug Interaction Database; Bailey DG et al., CMAJ 1998; NCI Cancer Information Database |
+| 建议 | 避免食用，包括新鲜西柚和西柚汁。效应可持续 24-72 小时。 |
+
+---
+
+### 圣约翰草 (St. John's Wort / 贯叶连翘)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 严重 |
+| 机制 | 强效诱导 CYP3A4 和 P-gp → 显著降低靶向药和多种药物的血药浓度 |
+| 受影响药物 | 伊马替尼, 舒尼替尼, 达拉非尼, 维莫非尼, 他莫昔芬, 口服避孕药 |
+| 临床表现 | 治疗失败, 疾病进展 |
+| 证据来源 | Natural Medicines Comprehensive Database; Memorial Sloan Kettering Cancer Center Herbs Database |
+| 建议 | 停用。至少停用 2 周后再开始靶向药治疗。 |
+
+---
+
+### 姜黄素 (Curcumin)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 中等 |
+| 机制 | 抑制 CYP 酶（特别是 CYP2D6, CYP3A4）；高剂量可能影响化疗药代谢；可能增强铂类药物的细胞毒作用，也可能产生拮抗 |
+| 受影响药物 | 顺铂, 卡铂, 多西他赛, 环磷酰胺 |
+| 临床表现 | 化疗毒性增加或降低；个体差异大 |
+| 证据来源 | NCI Cancer Information Database; Shishu G et al., Asian Pac J Cancer Prev 2017; Chai SC et al., J Cell Physiol 2019 |
+| 建议 | 化疗期间避免大剂量姜黄素补剂。食物中添加的少量姜黄风险较低。 |
+
+---
+
+### 灵芝 (Lingzhi / Ganoderma lucidum)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 中等 |
+| 机制 | 调节免疫系统（上调 IL-2, IL-10, 干扰素-γ）；可能与免疫检查点抑制剂产生协同或拮抗 |
+| 受影响药物 | 帕博利珠单抗 (Keytruda), 信迪利单抗, 卡瑞利珠单抗, 度伐利尤单抗 |
+| 临床表现 | 免疫相关不良反应 (irAE) 风险不明；可能影响治疗疗效 |
+| 证据来源 | Memorial Sloan Kettering Cancer Center Herbs Database; Zhou LW et al., J Cell Physiol 2020 |
+| 建议 | 免疫治疗期间与主管医生讨论使用；监测免疫相关指标和 irAE 症状。 |
+
+---
+
+### 甘草 (Licorice / 甘草)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 中等 |
+| 机制 | 甘草酸抑制 11β-羟基类固醇脱氢酶 → 假性醛固酮增多症；与糖皮质激素联用可能协同升高血压和水钠潴留 |
+| 受影响药物 | 泼尼松, 地塞米松, 甲泼尼龙, 抗高血压药, 利尿剂 |
+| 临床表现 | 高血压, 水肿, 低钾血症, 心律失常 |
+| 证据来源 | Natural Medicines Comprehensive Database;  中华人民共和国药典 2020版 |
+| 建议 | 长期使用者监测血压和电解质；糖皮质激素使用者避免大剂量甘草茶/甘草制剂。 |
+
+---
+
+### 银杏叶 (Ginkgo Biloba)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 中等 |
+| 机制 | 抑制血小板激活因子 (PAF)；降低血小板聚集 → 增加出血风险 |
+| 受影响药物 | 抗凝药 (华法林, 利伐沙班, 阿哌沙班), 化疗药 (吉西他滨, 铂类), 抗血小板药 (阿司匹林, 氯吡格雷) |
+| 临床表现 | 出血风险增加, 伤口愈合延迟 |
+| 证据来源 | NCI Cancer Information Database; Natural Medicines Comprehensive Database |
+| 建议 | 抗凝治疗、出血风险高或围手术期患者避免使用。 |
+
+---
+
+### 虫草 (Cordyceps / 冬虫夏草 / 虫草花)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 轻微 |
+| 机制 | 有限的临床数据；可能调节免疫功能；含虫草素，可能影响核苷代谢 |
+| 受影响药物 | 免疫检查点抑制剂 (理论上有免疫调节可能，但无明确临床证据) |
+| 临床表现 | 有限的毒性报告；个案报道肾功能变化 |
+| 证据来源 | Liu RM et al., J Cell Physiol 2019; Zhang CW et al., Front Pharmacol 2020; 无大型临床试验报告 |
+| 建议 | 可用，但优先通过均衡饮食摄入；化疗期间尤其注意虫草类产品的质量和来源；大剂量补剂需与医生讨论。 |
+
+---
+
+### 西洋参 (American Ginseng / 西洋参)
+
+| 分类 | 内容 |
+|------|------|
+| 风险等级 | 轻微-中等 |
+| 机制 | 调节血糖（可能降血糖）；可能影响血压；皂苷可能影响 CYP 酶 |
+| 受影响药物 | 降糖药 (二甲双胍, 胰岛素), 抗高血压药, 华法林 |
+| 临床表现 | 血糖过低，血压波动，INR 变化 |
+| 证据来源 | Natural Medicines Comprehensive Database;  中华中医药学刊 2018 |
+| 建议 | 血糖异常或血压异常患者使用时密切监测；与华法林联用时监测凝血功能。 |
+
+---
+
+## Common Oncology Drug Categories and Their Interactions
+
+### EGFR TKI (靶向药)
+
+| 药物 | 主要禁忌 |
+|------|----------|
+| 奥希替尼 (Osimertinib) | 西柚汁, 圣约翰草, 强效 CYP3A4 抑制剂 |
+| 吉非替尼 (Gefitinib) | 西柚汁, 圣约翰草, 利福平 (CYP3A4 诱导剂) |
+| 厄洛替尼 (Erlotinib) | 西柚汁, 质子泵抑制剂 (降低吸收), 圣约翰草 |
+| 阿法替尼 (Afatinib) | 西柚汁, 质子泵抑制剂 |
+| 达可替尼 (Dacomitinib) | 西柚汁, 圣约翰草 |
+
+### 免疫检查点抑制剂
+
+| 药物 | 主要禁忌 |
+|------|----------|
+| 帕博利珠单抗 (Pembrolizumab) | 虫草 (理论免疫调节), 灵芝 (理论免疫调节), 大剂量免疫增强剂 |
+| 信迪利单抗 | 同上 |
+| 卡瑞利珠单抗 | 同上 |
+
+### 化疗药
+
+| 药物 | 主要禁忌 |
+|------|----------|
+| 吉西他滨 | 银杏叶 (出血风险) |
+| 顺铂/卡铂 | 顺铂肾毒性, 姜黄素 (争议), 氨基糖苷类 (叠加耳/肾毒性) |
+| 多西他赛 | 姜黄素 (可能影响代谢), 酒精 (辅助成分) |
+| 环磷酰胺 | 圣约翰草, 姜黄素 (可能影响激活) |
+
+---
+
+## Data Sources
+
+| 来源 | 覆盖范围 | 访问方式 |
+|------|----------|----------|
+| NCI Cancer Information Database | 靶向药, 化疗药与食物/补充剂 | https://www.cancer.gov/about-cancer/treatment/side-effects |
+| FDA Drug Interaction Database | FDA 批准药物相互作用 | https://www.accessdata.fda.gov/scripts/cder/druginteractiondata/ |
+| Natural Medicines Comprehensive Database | 补充剂, 草药, 食品-药物相互作用 | https://naturalmedicines.therapeuticresearch.com/ |
+| Memorial Sloan Kettering Cancer Center Herbs Database | 草药与癌症治疗 | https://www.mskcc.org/cancer-care/integrative-medicine/herbs |
+| 中华人民共和国药典 2020版 | 中药质量标准, 相互作用 | 官方出版物 |
+
+---
+
+*Last updated: 2026-05-14. This reference data is for evaluation purposes and may not cover all interactions. Always consult healthcare professionals.*

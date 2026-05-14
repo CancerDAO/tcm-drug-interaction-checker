@@ -1,0 +1,65 @@
+{
+  "skill_name": "tcm-drug-interaction-checker",
+  "evals": [
+    {
+      "id": "eval-1",
+      "name": "Grapefruit juice interaction with EGFR TKI",
+      "prompt": "我在吃奥希替尼，能喝西柚汁吗？",
+      "expected_output": "Output clearly states NO — grapefruit juice inhibits CYP3A4 and can increase TKI blood levels causing toxicity.",
+      "assertions": [
+        "Output states 西柚汁 should be avoided or stopped",
+        "Output explains the CYP3A4 mechanism in plain language",
+        "Output provides evidence source citation",
+        "Output mentions severity risk"
+      ]
+    },
+    {
+      "id": "eval-2",
+      "name": "Cordyceps soup with Keytruda",
+      "prompt": "我妈妈在用Keytruda (帕博利珠单抗)，家里炖了虫草花鸡汤，能喝吗？",
+      "expected_output": "Output indicates no known major interaction, but advises caution and clinician consultation.",
+      "assertions": [
+        "Output gives a clear conclusion (可用 or 谨慎使用)",
+        "Output mentions cordyceps/虫草 specifically",
+        "Output cites evidence or lack thereof",
+        "Output advises consulting doctor"
+      ]
+    },
+    {
+      "id": "eval-3",
+      "name": "Multiple supplements with chemotherapy",
+      "prompt": "我亲戚在化疗（吉西他滨+顺铂），同时在吃姜黄素胶囊和灵芝孢子粉，有没有问题？",
+      "expected_output": "Output provides separate assessments for each supplement with mechanisms and evidence.",
+      "assertions": [
+        "Output addresses both 姜黄素 and 灵芝 separately",
+        "Output mentions potential liver metabolism effects",
+        "Output provides evidence sources for each conclusion",
+        "Output includes severity rating for each"
+      ]
+    },
+    {
+      "id": "eval-4",
+      "name": "Licorice with steroid therapy",
+      "prompt": "我爸爸在做化疗，化疗后要吃泼尼松龙片，能不能喝甘草茶？",
+      "expected_output": "Output flags licorice + steroid interaction (pseudoaldosteronism risk) as moderate-to-serious.",
+      "assertions": [
+        "Output mentions 甘草 + 糖皮质激素 interaction",
+        "Output explains 假性醛固酮增多症 mechanism",
+        "Output rates severity as 中等 or 严重",
+        "Output advises clinician consultation"
+      ]
+    },
+    {
+      "id": "eval-5",
+      "name": "St John's Wort with targeted therapy",
+      "prompt": "我吃吉非替尼，能同时吃圣约翰草提取物吗？",
+      "expected_output": "Output explicitly states NO — St John's Wort induces CYP3A4, reducing TKI efficacy.",
+      "assertions": [
+        "Output states 圣约翰草 should be avoided",
+        "Output explains CYP induction mechanism",
+        "Output provides evidence source",
+        "Output mentions severity as 严重"
+      ]
+    }
+  ]
+}
